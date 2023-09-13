@@ -6,10 +6,10 @@ Created and maintained by [Kong](https://konghq.com)
 
 Feature  | Description
 ------------- | -------------
-TCP echo  | Echoes any request sent to **54.175.103.105:30000**
-TCP info  | Get request info at **54.175.103.105:30001**
-UDP echo  | Echoes any request sent to **54.175.103.105:40000**
-UDP info  | Get request info at **54.175.103.105:40001**
+TCP echo  | Echoes any request sent to **77.68.103.57:30000**
+TCP info  | Get request info at **77.68.103.57:30001**
+UDP echo  | Echoes any request sent to **77.68.103.57:40000**
+UDP info  | Get request info at **77.68.103.57:40001**
 
 # DESCRIPTION
 
@@ -17,13 +17,13 @@ This project has been started to help testing TCP and UDP requests in a very eas
 
 # EXAMPLES
 
-### $ echo "Text to send to TCP" | ncat 54.175.103.105 30000
+### $ echo "Text to send to TCP" | ncat 77.68.103.57 30000
 
 ```
 Text to send to TCP
 ```
 
-### $ echo "Get some TCP info" | ncat 54.175.103.105 30001
+### $ echo "Get some TCP info" | ncat 77.68.103.57 30001
 
 ```json
 {
